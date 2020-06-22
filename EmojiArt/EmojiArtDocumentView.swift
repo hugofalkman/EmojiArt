@@ -47,7 +47,6 @@ struct EmojiArtDocumentView: View {
                         Text(emoji.text)
                             .font(self.font(for: emoji))
                             .position(self.position(for: emoji, in: geometry.size))
-                        
                     }
                 }
             }
