@@ -10,6 +10,8 @@
 		B14C29DE24993A9000F7B6D1 /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14C29DD24993A9000F7B6D1 /* EmojiArt.swift */; };
 		B15B6B9724A7548000C5E93F /* PaletteChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B6B9624A7548000C5E93F /* PaletteChooser.swift */; };
 		B15B6B9924A7671400C5E93F /* EmojiArtDocumentPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B6B9824A7671400C5E93F /* EmojiArtDocumentPalette.swift */; };
+		B15B6B9C24A9ED2400C5E93F /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B6B9A24A9ED2400C5E93F /* GridLayout.swift */; };
+		B15B6B9D24A9ED2400C5E93F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15B6B9B24A9ED2400C5E93F /* Grid.swift */; };
 		B1B2B2DC2499773000BBF144 /* EmojiArtExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2B2DB2499773000BBF144 /* EmojiArtExtensions.swift */; };
 		B1B2B2DE24A1102000BBF144 /* OptionalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2B2DD24A1102000BBF144 /* OptionalImage.swift */; };
 		B1B2B2E024A4859A00BBF144 /* AnimatableSystemFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2B2DF24A4859A00BBF144 /* AnimatableSystemFontModifier.swift */; };
@@ -27,6 +29,8 @@
 		B14C29DD24993A9000F7B6D1 /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 		B15B6B9624A7548000C5E93F /* PaletteChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteChooser.swift; sourceTree = "<group>"; };
 		B15B6B9824A7671400C5E93F /* EmojiArtDocumentPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentPalette.swift; sourceTree = "<group>"; };
+		B15B6B9A24A9ED2400C5E93F /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		B15B6B9B24A9ED2400C5E93F /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		B1B2B2DB2499773000BBF144 /* EmojiArtExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtExtensions.swift; sourceTree = "<group>"; };
 		B1B2B2DD24A1102000BBF144 /* OptionalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalImage.swift; sourceTree = "<group>"; };
 		B1B2B2DF24A4859A00BBF144 /* AnimatableSystemFontModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableSystemFontModifier.swift; sourceTree = "<group>"; };
@@ -81,9 +85,11 @@
 				B1B2B2DD24A1102000BBF144 /* OptionalImage.swift */,
 				B1B2B2DF24A4859A00BBF144 /* AnimatableSystemFontModifier.swift */,
 				B1B2B2DB2499773000BBF144 /* EmojiArtExtensions.swift */,
+				B1E257A624981FD000BF8F6D /* Assets.xcassets */,
+				B15B6B9B24A9ED2400C5E93F /* Grid.swift */,
+				B15B6B9A24A9ED2400C5E93F /* GridLayout.swift */,
 				B1E257A024981FCC00BF8F6D /* AppDelegate.swift */,
 				B1E257A224981FCC00BF8F6D /* SceneDelegate.swift */,
-				B1E257A624981FD000BF8F6D /* Assets.xcassets */,
 				B1E257AB24981FD000BF8F6D /* LaunchScreen.storyboard */,
 				B1E257AE24981FD000BF8F6D /* Info.plist */,
 				B1E257A824981FD000BF8F6D /* Preview Content */,
@@ -173,9 +179,11 @@
 				B15B6B9924A7671400C5E93F /* EmojiArtDocumentPalette.swift in Sources */,
 				B1E257A124981FCC00BF8F6D /* AppDelegate.swift in Sources */,
 				B1E257A324981FCC00BF8F6D /* SceneDelegate.swift in Sources */,
+				B15B6B9C24A9ED2400C5E93F /* GridLayout.swift in Sources */,
 				B1B2B2DC2499773000BBF144 /* EmojiArtExtensions.swift in Sources */,
 				B14C29DE24993A9000F7B6D1 /* EmojiArt.swift in Sources */,
 				B1E257A524981FCC00BF8F6D /* EmojiArtDocumentView.swift in Sources */,
+				B15B6B9D24A9ED2400C5E93F /* Grid.swift in Sources */,
 				B1B2B2DE24A1102000BBF144 /* OptionalImage.swift in Sources */,
 				B1B2B2E224A5F4EE00BBF144 /* Spinning.swift in Sources */,
 				B1B2B2E024A4859A00BBF144 /* AnimatableSystemFontModifier.swift in Sources */,
