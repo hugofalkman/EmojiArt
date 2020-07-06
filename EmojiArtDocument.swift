@@ -38,6 +38,24 @@ class EmojiArtDocument: ObservableObject, Hashable, Identifiable {
         fetchBackgroundImageData()
     }
     
+    var url: URL? { didSet { save(emojiArt) } }
+    
+    init(url: URL) {
+        self.id = UUID()
+        self.url = url
+        self.emojiArt = EmojiArt(json: try? Data(contentsOf: url)) ?? EmojiArt()
+        fetchBackgroundImageData()
+        autosave = $emojiArt.sink { emojiArt in
+            self.save(emojiArt)
+        }
+    }
+    
+    private func save(_ emojiArt: EmojiArt) {
+        if url != nil {
+            try? emojiArt.json?.write(to: url!)
+        }
+    }
+    
     @Published private(set) var backgroundImage: UIImage?
     
     @Published var steadyStateZoomScale: CGFloat = 1.0
