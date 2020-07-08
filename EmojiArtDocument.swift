@@ -96,7 +96,8 @@ class EmojiArtDocument: ObservableObject, Hashable, Identifiable {
     
     private func fetchBackgroundImageData() {
         backgroundImage = nil
-        if let url = emojiArt.backgroundURL {
+        if let url = self.emojiArt.backgroundURL?.imageURL { // NOTE: added ?.imageURL here in L14 to fix up filesystem url
+//        if let url = emojiArt.backgroundURL {
 //            DispatchQueue.global(qos: .userInitiated).async {
 //                if let imageData = try? Data(contentsOf: url) {
 //                    DispatchQueue.main.async {
